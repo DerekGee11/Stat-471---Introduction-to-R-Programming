@@ -105,9 +105,9 @@ t_test2<- t.test(eval_umps$consistency)
 t_test2
 
 
--We can say with 95% confidence that consistency will fall between the interval [93.14, 93.2] and that its p-value is less than 0.05 making it significant
+###-We can say with 95% confidence that consistency will fall between the interval [93.14, 93.2] and that its p-value is less than 0.05 making it significant
 
--We can say with 95% confidence that accuracy will fall between the interval [92.38, 92.46] and that its p-value is less than 0.05 making it significant
+###-We can say with 95% confidence that accuracy will fall between the interval [92.38, 92.46] and that its p-value is less than 0.05 making it significant
 
 ###Bootstrapping distributions
 x_bar<- eval_umps |>
